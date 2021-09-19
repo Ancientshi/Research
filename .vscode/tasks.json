@@ -1,0 +1,33 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "cppbuild",
+			"label": "C/C++: gcc build active file",
+			//the GCC path is /usr/bin/gcc in UNSW CSE LAB computer
+			"command": "/usr/bin/gcc",
+			"args": [
+				"-g",
+				"${file}",
+				//The following are the .c files you want to compile, ** is all
+				"${workspaceFolder}/c_example/src/**",
+				//The following are the .h file folders
+				"-I",
+				"${workspaceFolder}/c_example/inc/",
+				"-o",
+				"${fileDirname}/${fileBasenameNoExtension}"
+			],
+			"options": {
+				"cwd": "${fileDirname}"
+			},
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"detail": "compiler: /usr/bin/gcc"
+		}
+	]
+}
