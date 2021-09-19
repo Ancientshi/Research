@@ -18,9 +18,9 @@ This is the structure of c_example folder. The folder .vscode is for reference, 
     └── a.c
 ```
 ## Install Extensions
-C/C++ Extension Pack
-C/C++
-Code Runner
+- C/C++ Extension Pack
+- C/C++
+- Code Runner
 ## Config Json files
 1. Open main.c, command+shift+p, then choose "Config Default Build Task". Then there will be a directory named .vscode created in your workspace and a json file named tasks.json created in the folder. 
 2. Open main.c, command+shift+p, then choose "C/C++ Edit Configurations(JSON)". There will be a json file named c_cpp_properties.json created in the folder.
