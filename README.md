@@ -1,5 +1,5 @@
 # How to run c programs in UNSW CSE LAB computer by VSCODE in remote mode 
-- This guide is for **COMP9024**, we suppose that you have already known how to connect to the computer through SSH by VSCODE and this work is based on that.
+- This guide is for **COMP9024**, we suppose that you have already known how to connect to the computer through SSH by VSCODE and this work is based on that.(You can see https://github.com/Ancientshi/Master-Learning/blob/master/VSCODE_connect_to_CSE.md)
 - This simple guide **is only for reference**. There may be some inaccuracies. If you find anything, it is welcome to comment **friendly** in issue.
 ## File structure
 This is the structure of c_example folder. The folder .vscode is for reference, it is not necessary for running you own c programs. When your configuration is finished and run c program well, you can delete the folder.
