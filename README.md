@@ -1,2 +1,2 @@
-# This Responsitory is Used for My Master Career Studying
-mainly some notes and codes.
+# This Responsitory is used for Master Career Studying
+Mainly some notes and codes after finishing the course.
