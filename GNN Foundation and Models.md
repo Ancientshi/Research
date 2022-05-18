@@ -1,6 +1,6 @@
 # Project Summary
 
-**Customer:** Yunxiao Shi
+**Author:** Yunxiao Shi
 
 **Project name:** GNN Foundation and Models
 
